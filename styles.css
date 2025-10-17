@@ -56,3 +56,14 @@ img {
     
 }
 
+#activities-section {
+    height: 378px;
+    margin-top: 50px;
+}
+
+#activities-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
