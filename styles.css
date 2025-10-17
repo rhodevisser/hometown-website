@@ -11,8 +11,48 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    width: 720px;
+    margin: auto;
+
 }
 
 img {
     width: 100px;
 }
+
+#hero {
+    height: 343px;
+    background-image: url("resources/images/csm_sint-maartensdijk_9f24bfee26.jpg");
+    background-position: center;
+}
+
+#title-banner {
+    color: #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#smerdiek-weapon {
+    margin-top: 20px;
+    width: 30px;
+}
+
+#smerdiek-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #193783;
+}
+
+#smerdiek-subtitle {
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #97abde;
+    width: 400px;
+    
+}
+
