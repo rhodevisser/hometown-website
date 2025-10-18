@@ -37,7 +37,7 @@ body {
     border-radius: 5px;
     font-size: 28px;
     background-color: #193783;
-}                                                                                                                                                                                                                                                                                                                                                                                        
+}                                                                                                                                                                                                                                                                                                                                                                                          
 
 #smerdiek-subtitle {
     padding: 3px 7px;
@@ -58,17 +58,17 @@ body {
     padding-top: 35px;
 }
 
-.act-titles {
-    margin: 10px 0px;
-}
-
-#activities-img {
+#act-images {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
     margin-left: auto; 
     margin-right: auto;   
     max-width: 720px;
+}
+
+.act-images-titles {
+    margin: 10px 0px;
 }
 
 .images-prop {
@@ -83,6 +83,7 @@ body {
     height: 226px;
 }
 
+
 #guide-card {
     height: 294px;
     width: 400px;
@@ -94,7 +95,6 @@ body {
     border-bottom: 6px solid #ecd059;
     border-radius: 15px;
 }
-
 
 #guide-img {
     height: 200px;
