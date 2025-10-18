@@ -8,13 +8,19 @@ DARK BLUE: #1D3557
 
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     text-align: center;
     width: 720px;
     margin: auto;
-
 }
+
 
 img {
     width: 100px;
@@ -24,6 +30,7 @@ img {
     height: 343px;
     background-image: url("resources/images/csm_sint-maartensdijk_9f24bfee26.jpg");
     background-position: center;
+
 }
 
 #title-banner {
@@ -52,18 +59,37 @@ img {
     border-radius: 5px;
     font-size: 14px;
     background-color: #97abde;
-    width: 400px;
-    
+    width: 400px;    
 }
 
 #activities-section {
     height: 378px;
-    margin-top: 50px;
+    background-color: #f7ee87;
+    margin-top: 0px;
+}
+
+#act-title {
+    padding-top: 35px;
+}
+
+.act-titles {
+    margin: 10px 0px;
 }
 
 #activities-img {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+}
+
+.images-prop {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;;
+}
+.act-sections {
+    width: 198px;
+    height: 226px;
 }
 
