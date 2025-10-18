@@ -8,19 +8,14 @@
 body {
     margin: 0;
     text-align: center;
-    margin: auto;
+    font-family: Arial, sans-serif;
 }
 
 
-img {
-    width: 100px;
-}
-
-#hero {
-    height: 343px;
+#hero-section {
+    height: 450px;
     background-image: url("resources/images/csm_sint-maartensdijk_9f24bfee26.jpg");
-    background-position: center;
-
+    background-size: cover
 }
 
 #title-banner {
@@ -40,19 +35,20 @@ img {
     margin-bottom: 50px;
     padding: 5px 15px;
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 28px;
     background-color: #193783;
-}
+}                                                                                                                                                                                                                                                                                                                                                                                        
 
 #smerdiek-subtitle {
-    padding: 3px 10px;
+    padding: 3px 7px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px;
     background-color: #97abde;
-    width: 400px;    
+    width: 420px;  
+    line-height: 18px;
 }
 
-#activities-section {
+#act-section {
     height: 378px;
     background-color: #f7ee87;
     margin-top: 0px;
@@ -70,6 +66,9 @@ img {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    margin-left: auto; 
+    margin-right: auto;   
+    max-width: 720px;
 }
 
 .images-prop {
